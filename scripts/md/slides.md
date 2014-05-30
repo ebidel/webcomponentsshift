@@ -1178,9 +1178,9 @@ content_class: flexbox vcenter centered
 title: Try it today? Yes!
 
 - Use Chrome Canary, turn on:
-	- **Enable Experimental WebKit features** in `about:flags`
-	- **Enable experimental JavaScript** in `about:flags`
-	- Enable **Show Shadow DOM** in DevTools
+  - **Enable Experimental WebKit features** in `about:flags`
+  - **Enable experimental JavaScript** in `about:flags`
+  - Enable **Show Shadow DOM** in DevTools
 
 - - -
 

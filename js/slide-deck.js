@@ -63,8 +63,7 @@ SlideDeck.prototype.loadSlide = function(slideNo) {
  * @private
  */
 SlideDeck.prototype.onDomLoaded_ = function(e) {
-  // TODO(ericbidelman): Delegate to toolkitk which also applies opacity: 1 to body.
-  //document.body.classList.add('loaded'); // Add loaded class for templates to use.
+  document.body.classList.add('loaded'); // Add loaded class for templates to use.
 
   this.slides = this.container.querySelectorAll('slide:not([hidden]):not(.hidden):not(.backdrop)');
 
